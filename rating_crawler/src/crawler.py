@@ -130,7 +130,6 @@ class WatchapediaRatingCrawler:
                 self.set_target_user(next_user)
 
             # 스크롤 마지막 지점 찾기
-            
             try:
                 n_rating, n_wish = self.get_scroll_end_point(self.user_id)
             except IndexError:
