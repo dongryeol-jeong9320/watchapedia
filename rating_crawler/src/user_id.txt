@@ -1,5 +1,0 @@
-# 처음 크롤링할 user id 입력 #
-userid1(thread1)
-userid2(thread2)
-userid3(thread3)
-...
