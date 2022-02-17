@@ -1,6 +1,5 @@
-DgwxA49ZE5rMj
-a9L5PYQpONxwg
-4WLxZkkg1bqro
-6ewxaW8pZvQ1m
-JZ4vBKJ7Y5RXO
-VRZv4zNNPxr6y
+# 처음 크롤링할 user id #
+userid1(thread1)
+userid2(thread2)
+userid3(thread3)
+....
