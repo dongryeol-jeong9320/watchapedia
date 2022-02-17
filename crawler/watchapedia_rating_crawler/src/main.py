@@ -40,13 +40,10 @@ def main():
 	thread_list = []
 	for i in range(n_thread):
 		user_id = users[i]
-		rating_dir += f'_{i + 1}'
-		wishlist_dir += f'_{i + 1}'
-
 		thread = Thread(
 			target=execute_crawler, 
 			name=f'thread{i:0>2}',
-			args=(user_id, rating_dir, wishlist_dir, n_iter, max_contents, options)
+			args=(user_id, rating_dir + f'_{i + 1}', wishlist_dir + f'_{i + 1}', n_iter, max_contents, options)
 			)
 		thread_list.append(thread)
 		thread_list[i].start()
